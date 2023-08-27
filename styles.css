@@ -1,1 +1,48 @@
-
+.image{
+	width:100px;
+	height:100px
+}
+.impression{
+	font-weight: bold
+}
+.info{
+	display: flex;
+}
+.image-container{
+	flex:1;
+}
+.intro{
+	flex:2;
+}
+.row{
+/* 	width:fit-content; */
+	display:flex;
+	border-bottom: 5px solid #0C78FF;
+}
+.row>p{
+	margin-inline: 10px;
+}
+.icon{
+	font-size:25px;
+}
+.skills{
+	display:flex;
+	flex-direction: column;
+}
+.h1-class{
+	width: fit-content;
+	border-bottom: 5px solid blue;
+}
+.main{
+	display:flex;
+}
+.col-1, .col-2{
+	flex:1;
+	margin-inline: 20px;
+	text-align: justify;
+}
+@media screen and (max-width:768px){
+	.main{
+		flex-direction: column;
+	}
+}
